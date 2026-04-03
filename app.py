@@ -3,7 +3,7 @@ import google.generativeai as genai
 
 # 1. AI Configuration (API Key)
 genai.configure(api_key="AIzaSyAWJmzLqTPezig0ghWrUyA3bGtIqNmEQIk")
-model = genai.GenerativeModel('gemini-1.5-pro')
+model = genai.GenerativeModel('gemini-pro')
 
 # 2. Personality & Rules (The Soul of Radhe AI)
 personality = (
