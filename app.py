@@ -5,7 +5,7 @@ import google.generativeai as genai
 genai.configure(api_key="AIzaSyBAnci_U10Sep6PHXzDH-f9xVA8lUNt5DU")
 
 # Model Setup
-model = genai.GenerativeModel('gemini-pro')
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 # 2. Yeh hai Radhe ki Personality aur User (Aapki) Information
 personality = """
