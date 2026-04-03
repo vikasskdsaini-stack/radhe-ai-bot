@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # 1. AI Configuration (API Key)
-genai.configure(api_key="AIzaSyAWJmzLqTPezig0ghWrUyA3bGtIqNmEQIk")
+genai.configure(api_key="AIzaSyBAnci_U10Sep6PHXzDH-f9xVA8lUNt5DU")
 model = genai.GenerativeModel('gemini-pro')
 
 # 2. Personality & Rules (The Soul of Radhe AI)
